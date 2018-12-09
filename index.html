@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hotel Reservation</title>
+    <link rel="stylesheet" type="text/css" href="bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<header class="bg-lemon">
+    <div class="container">
+        <nav class="navbar navbar-expand-md bg-lemon">
+            <!-- Brand/logo -->
+            <a class="navbar-brand text-info" href="#"><h5 class="font-weight-bold">Caravansary.com</h5></a>
+            <button class="navbar-toggler ml-1" type="button" data-toggle="collapse" data-target="#collapsingNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Links -->
+            <div class="navbar-collapse collapse justify-content-between align-items-center w-100 ml-auto" id="collapsingNavbar">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link text-info" href="#">Service</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-info" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-info" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <div class="container">
+        <nav class="navbar navbar-expand-sm bg-red navbar-dark">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Login</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Bookings</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Help</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<main>
+    <section class="bg-hotel">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 menu-title">
+                    <h1 class="text-center text-white mt-5">What Are You Looking For?</h1>
+                </div>
+                <div class="col-md-12 mt-5">
+                    <div class="search-box p-5">
+                        <form>
+                            <div class="input-group row">
+                                <label class="col-md-2 col-form-label font-weight-bold">Location: </label>
+                                <div class="col-md-10">
+                                    <input type="text" name="location" class="form-control" placeholder="Enter Location Here!">
+                                </div>
+                            </div>
+
+                            <br/>
+
+                            <div class="input-group row">
+                                <label class="col-md-2 col-form-label font-weight-bold">Check In</label>
+                                <div class="col-md-4">
+                                    <input type="date" name="date_form" class="form-control">
+                                </div>
+                                <label class="col-md-2 col-form-label font-weight-bold">Check Out</label>
+                                <div class="col-md-4">
+                                    <input type="date" name="date_to" class="form-control">
+                                </div>
+                            </div>
+
+                            <br/>
+
+                            <div class="input-group row">
+                                <label class="col-form-label col-md-2 font-weight-bold">Room</label>
+                                <div class="col-md-4 pb-4">
+                                    <select name="room" class="form-control">
+                                        <option value="N/A">Select Room</option>
+                                        <option value="N/A">Single Room</option>
+                                        <option value="N/A">Double Room</option>
+                                    </select>
+                                </div>
+
+                                <div class="col-md-6">
+                                    <input type="submit" name="search" value="Search" class="btn btn-warning btn-block">
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h1 class="text-center">Our Services</h1>
+                    <small class="">To work for the common good is the greatest creed.</small>
+                </div>
+            </div>
+            <br/>
+            <div class="row">
+                <div class="col-md-10 offset-md-1">
+                    <p class="pl-3 pr-3 text-justify">
+                        Caravansary.com is a leading online accommodation site. We’re passionate about travel. Every day we inspire and reach millions of travelers across 90 local websites in 41 languages. So when it comes to booking the perfect hotel, vacation rental, resort, apartment, guest house or treehouse  – we’ve got you covered. With hundreds of thousands of properties in over 200 countries and territories, we provide incomparable choice with a Price Guarantee. Our site is fun and simple to use and we offer innovative online tools and a top rated mobile app.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="popularDestination">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h1 class="text-center">Popular Destinations</h1>
+                    <small class="">We mapped few destination for you.</small>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-3">
+                    <img src="images/p1.jpg" class="image-fit">
+                </div>
+                <div class="col-md-3">
+                    <img src="images/p2.jpg" class="image-fit">
+                </div>
+                <div class="col-md-3">
+                    <img src="images/p3.jpg" class="image-fit">
+                </div>
+                <div class="col-md-3">
+                    <img src="images/p4.jpg" class="image-fit">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-3">
+                    <img src="images/p5.jpg" class="image-fit">
+                </div>
+                <div class="col-md-3">
+                    <img src="images/p6.jpg" class="image-fit">
+                </div>
+                <div class="col-md-3">
+                    <img src="images/p7.jpg" class="image-fit">
+                </div>
+                <div class="col-md-3">
+                    <img src="images/p8.jpg" class="image-fit">
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <section class="bg-lemon">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 pt-3 pb-2 text-center font-weight-bold">
+                    <h3>Subscribe Us</h3>
+                    <p>To Know Our Latest Offer</p>
+                </div>
+                <div class="col-md-4 pt-3 pb-2 text-center font-weight-bold">
+                    <h3>Download Apps</h3>
+                    <p>To get Latest Notification</p>
+                </div>
+                <div class="col-md-4 pt-3 pb-2 text-center font-weight-bold">
+                    <h3>Get Rewards</h3>
+                    <p>To Explore More</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="bg-dark">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center text-white pt-3">
+                    <p class="font-weight-bold">@copyright 2018 by Amir Toliyat.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+</footer>
+<script type="text/javascript" src="jquery-3.3.1.js"></script>
+<script type="text/javascript" src="bootstrap.js"></script>
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>

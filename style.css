@@ -1,0 +1,74 @@
+.bg-red{
+    background-color:  darkcyan;
+}
+
+.bg-lemon{
+    background-color: #bee5eb;
+}
+
+.bg-hotel{
+    background-image: url("images/Most-beautiful-hotels-of-the-world.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    background-repeat: no-repeat;
+    backface-visibility: visible;
+    padding-bottom: 5%;
+}
+
+.menu-title h1{
+    margin-top: 50px;
+    font-size: 55px;
+    font-weight: bold;
+    font-family: Roboto;
+}
+
+.search-box{
+    background-color: #bee5eb;
+    min-height: 250px;
+    width: 100%;
+}
+
+#services{
+    padding-top: 60px;
+    padding-bottom: 30px;
+    background-color: #f8f9fa;
+}
+
+#popularDestination{
+    padding-top: 60px;
+    padding-bottom: 30px;
+    background-color: #fcf8e3;
+}
+
+.image-fit{
+    width: 95%;
+    margin: 10% 2.5%;
+    height: 200px;
+    transition: 2s;
+}
+
+
+
+
+.image-fit:hover{
+    transform: scale(1.1);
+}
+
+
+.contact{
+    background-image: url("images/contact.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    width: auto;
+    background-repeat: no-repeat;
+    backface-visibility: visible;
+    padding-bottom: 5%;
+}
+
+
+
+
+
+
+
